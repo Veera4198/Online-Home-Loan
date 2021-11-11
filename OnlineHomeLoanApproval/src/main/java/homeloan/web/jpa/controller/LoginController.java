@@ -70,10 +70,10 @@ public class LoginController
 		loginService.removeLogin(userId);
 		return HttpStatus.OK;
 	}
-	/*@ExceptionHandler(RuntimeException.class)
+	@ExceptionHandler(RuntimeException.class)
 	public HttpStatus exceptionHandlerMethod()
 	{
 		return HttpStatus.NO_CONTENT;
-	}*/
+	}
 	
 }
